@@ -4,7 +4,7 @@ services:
 env:
   global:
     - IMAGE_NAME=terradue/nb-burned-area-delineation
-    - VERSION=0.3
+    - VERSION=0.4
 
 script:
   - docker build -f Dockerfile --no-cache --tag "$IMAGE_NAME" .
